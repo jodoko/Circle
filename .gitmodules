@@ -1,0 +1,9 @@
+[submodule "Ext/JUCE"]
+	path = Ext/JUCE
+	url = https://github.com/juce-framework/JUCE
+[submodule "Ext/foleys_gui_magic"]
+	path = Ext/foleys_gui_magic
+	url = https://github.com/ffAudio/foleys_gui_magic.git
+[submodule "Ext/eigen"]
+	path = Ext/eigen
+	url = https://gitlab.com/libeigen/eigen.git
