@@ -28,7 +28,7 @@ CutTheMoogAudioProcessor::CutTheMoogAudioProcessor()
 {
     LookAndFeel::setDefaultLookAndFeel(&myLnf);
     analyser = magicState.createAndAddObject<foleys::MagicAnalyser>("analyser");
-    magicState.setGuiValueTree(BinaryData::CutTheMoog_xml, BinaryData::CutTheMoog_xmlSize);
+    magicState.setGuiValueTree(BinaryData::Circle_xml, BinaryData::Circle_xmlSize);
 }
 
 CutTheMoogAudioProcessor::~CutTheMoogAudioProcessor()

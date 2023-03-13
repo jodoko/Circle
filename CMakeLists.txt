@@ -72,8 +72,8 @@ add_subdirectory(Source)
 # add plugin binary data files
 juce_add_binary_data(BinaryData
         SOURCES
-            Resources/CutTheMoog.xml
-            Resources/CutTheMoog_logoprova2.png
+            Resources/Circle.xml
+            Resources/Circle.png
             Resources/FuturaBoldFont.ttf
             Resources/FuturaBookFont.ttf
             Resources/FuturaHeavyfont.ttf
