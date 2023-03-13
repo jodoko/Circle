@@ -7,7 +7,7 @@ endif()
 
 project(Circle VERSION 0.0.1)
 
-#Add JUCE
+# Add JUCE
 add_subdirectory(Ext/JUCE)
 
 juce_add_module(Ext/foleys_gui_magic)
@@ -61,7 +61,7 @@ juce_add_plugin(Circle
 )
 
 # compile with C++14
-target_compile_features(Circle PRIVATE cxx_std_14)
+target_compile_features(Circle PRIVATE cxx_std_20)
 
 # create JUCE header
 juce_generate_juce_header(Circle)
